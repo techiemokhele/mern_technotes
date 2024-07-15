@@ -1,0 +1,4 @@
+20240715	07:05:25	178890d0-93d1-4b58-ab19-ecf6f34b830a	SyntaxError: Unexpected token } in JSON at position 65	POST	/users	undefined
+20240715	07:26:41	fb751831-b888-45db-b4e3-a71a8bf41922	CastError: Cast to ObjectId failed for value "6694ad3b41bd8359eecc190" (type string) at path "user" for model "Note"	DELETE	/users	undefined
+20240715	07:51:04	99dcca4f-1926-4152-a8cb-75f5633fab6a	ReferenceError: Cannot access 'user' before initialization	DELETE	/users	undefined
+20240715	07:53:13	b9374591-6da1-4313-a757-646977941fb1	ReferenceError: result is not defined	DELETE	/users	undefined
