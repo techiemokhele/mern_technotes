@@ -2,3 +2,16 @@
 20240715	07:26:41	fb751831-b888-45db-b4e3-a71a8bf41922	CastError: Cast to ObjectId failed for value "6694ad3b41bd8359eecc190" (type string) at path "user" for model "Note"	DELETE	/users	undefined
 20240715	07:51:04	99dcca4f-1926-4152-a8cb-75f5633fab6a	ReferenceError: Cannot access 'user' before initialization	DELETE	/users	undefined
 20240715	07:53:13	b9374591-6da1-4313-a757-646977941fb1	ReferenceError: result is not defined	DELETE	/users	undefined
+20240715	23:02:43	c360e3e1-aba8-468e-a227-c88f9f50047b	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+20240715	23:03:00	4117d8b2-aa3d-4128-baca-9a57f7c33b8f	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+20240715	23:03:39	93c122ea-da83-4b26-8af3-bfeb369fe3ad	Error: Not allowed by CORS	GET	/notes	http://localhost:3000
+20240715	23:03:44	af0c36c1-dd7f-442e-81c9-8781413c4fc2	Error: Not allowed by CORS	GET	/notes	http://localhost:3000
+20240715	23:03:47	0c197af6-d686-4af0-a20f-1e21fc3c84a0	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+20240715	23:06:02	2c5d8c2a-559d-420f-aaf5-809afe8736a8	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+20240722	17:18:24	7125ada6-5336-4011-9020-e7aa0a0134d0	MongoServerSelectionError: connection <monitor> to 13.245.22.23:27017 timed out	PATCH	/users	http://localhost:3000
+20240722	17:18:24	dfe4cf87-02c2-4cad-bf0d-f5136883ddbc	MongoServerSelectionError: connection <monitor> to 13.245.22.23:27017 timed out	PATCH	/users	http://localhost:3000
+20240722	17:18:24	1111ca6a-b7a6-4472-ade9-a2a3fccbbefe	MongoServerSelectionError: connection <monitor> to 13.245.22.23:27017 timed out	PATCH	/users	http://localhost:3000
+20240722	17:22:24	e2eedbf9-d561-46ea-a63f-447acbef67b7	DocumentNotFoundError: No document found for query "{ _id: new ObjectId('669df3b976d9b83dee28174d') }" on model "User"	PATCH	/users	http://localhost:3000
+20240722	17:22:24	fa6eb9bc-4641-41eb-a84f-0efe19983e85	DocumentNotFoundError: No document found for query "{ _id: new ObjectId('669df3b976d9b83dee28174d') }" on model "User"	PATCH	/users	http://localhost:3000
+20240722	17:38:24	20913ed5-469d-46db-ab19-63f99224e9e9	MongoServerSelectionError: connection <monitor> to 13.245.22.23:27017 timed out	GET	/notes	http://localhost:3000
+20240722	17:38:24	e5390afb-a353-4cf6-9099-a065fba412f8	MongoServerSelectionError: connection <monitor> to 13.245.22.23:27017 timed out	GET	/users	http://localhost:3000
