@@ -15,3 +15,5 @@
 20240722	17:22:24	fa6eb9bc-4641-41eb-a84f-0efe19983e85	DocumentNotFoundError: No document found for query "{ _id: new ObjectId('669df3b976d9b83dee28174d') }" on model "User"	PATCH	/users	http://localhost:3000
 20240722	17:38:24	20913ed5-469d-46db-ab19-63f99224e9e9	MongoServerSelectionError: connection <monitor> to 13.245.22.23:27017 timed out	GET	/notes	http://localhost:3000
 20240722	17:38:24	e5390afb-a353-4cf6-9099-a065fba412f8	MongoServerSelectionError: connection <monitor> to 13.245.22.23:27017 timed out	GET	/users	http://localhost:3000
+20240731	06:53:53	7e66f28e-9616-40bd-a1f2-336ec4bd8643	Error: read ECONNRESET	GET	/notes	http://localhost:3000
+20240731	11:50:56	2f6aa9f5-86ab-48cc-aedb-e97c05fd0fab	PoolClearedOnNetworkError: Connection to ac-8360ipd-shard-00-02.umsb299.mongodb.net:27017 interrupted due to server monitor timeout	GET	/notes	http://localhost:3000
