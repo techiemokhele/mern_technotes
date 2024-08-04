@@ -1,7 +1,7 @@
 {
   "name": "technotes-mern-stack-backend",
   "version": "1.0.0",
-  "description": "Neo Mokhele techNotes Project",
+  "description": "Neo Mokhele Auto Repairs API",
   "main": "server.js",
   "scripts": {
     "start": "node server",
