@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    'https://neomokhele-auto-repairs-notes.onrender.com',
+    'https://neomokhele-auto-repairs-notes.vercel.app',
 ]
 
 module.exports = allowedOrigins
